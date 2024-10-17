@@ -76,9 +76,7 @@ if df and dep and indep:
     data=model_data,
     file_name="LinearModel.pkl",
     mime='application/octet-stream')
-  
-  st.page_link("https://vsbpersonalportfolio.pythonanywhere.com/", label="Don't Know how to use the model ? click", icon="💁‍♂️")
-  
+  st.write("Note : Check 👈 to know how to use model")  
   
 
 footer_html = """
